@@ -1,0 +1,22 @@
+<view class="container">
+
+	<!-- 卡片类型 -->
+	<l-header title="卡片类型" />
+
+	<!-- 卡片列表 -->
+	<l-card-category categories="{{categories}}" />
+
+	<!-- 工具栏 -->
+	<picker
+	 class="tool-bar"
+	 mode="selector"
+	 range="{{categories}}"
+	 range-key="title"
+	 value="0"
+	 bindchange="change"
+	>
+		<l-tool-bar title="添加卡证" iconPath="/assets/imgs/add.png" />
+	</picker>
+
+</view>
+

@@ -1,0 +1,11 @@
+<view class="cardCategories">
+	<block wx:for="{{categories}}" wx:key="index">
+		<l-card-item
+		 title="{{item.title}}"
+		 iconPath="{{item.iconPath}}"
+		 bind:tap="clickItem"
+		 data-index="{{index}}"
+		/>
+	</block>
+</view>
+

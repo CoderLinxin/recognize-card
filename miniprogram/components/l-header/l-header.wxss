@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80rpx;
+  padding-left: 10rpx;
+  border-left: 7rpx solid #34AD61;
+  background-color: rgb(95, 93, 93, .05);
+  line-height: 80rpx;
+  font-style: 30rpx;
+}
+
+.right {
+}

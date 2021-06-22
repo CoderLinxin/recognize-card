@@ -1,0 +1,10 @@
+.recognize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool-bar {
+  margin-top: 50rpx;
+}
+

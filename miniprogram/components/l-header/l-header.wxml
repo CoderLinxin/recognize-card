@@ -1,0 +1,8 @@
+<view class="container">
+	<text>{{title}}</text>
+	<view class="right">
+		<!-- 具名插槽 -->
+		<slot name='right' />
+	</view>
+</view>
+

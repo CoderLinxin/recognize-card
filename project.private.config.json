@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/recognize/recognize",
+          "pathName": "pages/recognize/recognize",
+          "query": "index=0",
+          "scene": null
+        },
+        {
+          "name": "pages/recognize/recognize",
+          "pathName": "pages/recognize/recognize",
+          "query": "index=1",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/card-list/card-list",
+          "pathName": "pages/card-list/card-list",
+          "query": "index=0&type='身份证'",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

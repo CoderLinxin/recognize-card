@@ -1,0 +1,33 @@
+<view class="recognize">
+	<l-tool-bar
+	 iconPath="/assets/imgs/add.png"
+	 title="{{title}}"
+	 recognize-class="tool-bar"
+	 bind:tap="addCard"
+	/>
+
+	<l-tool-bar
+	 iconPath="/assets/imgs/copy.png"
+	 title="{{save}}"
+	 recognize-class="tool-bar"
+	 bgColor="#E24426"
+	 bind:tap="save"
+	/>
+
+	<l-tool-bar
+	 iconPath="/assets/imgs/save.png"
+	 title="{{copy}}"
+	 recognize-class="tool-bar"
+	 bgColor="#FFBD32"
+	 bind:tap="copy"
+	/>
+</view>
+
+<!-- 卡片信息展示 -->
+<card-info
+ idInfo='{{idInfo}}'
+ cards="{{cards}}"
+ index="{{index}}"
+ bankInfo="{{bankInfo}}"
+/>
+

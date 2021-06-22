@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+   "l-card-category":"./childComponents/l-card-category/l-card-category"
+  },
+  "navigationBarTitleText": "卡证识别"
+}

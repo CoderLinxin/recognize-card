@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/recognize/recognize",
+    "pages/card-list/card-list"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/assets/imgs/home.png",
+        "selectedIconPath": "/assets/imgs/home_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/imgs/profile.png",
+        "selectedIconPath": "/assets/imgs/profile_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "l-header": "/components/l-header/l-header",
+    "l-tool-bar": "/components/l-tool-bar/l-tool-bar",
+    "card-info":"/components/card-info/card-info"
+  }
+}

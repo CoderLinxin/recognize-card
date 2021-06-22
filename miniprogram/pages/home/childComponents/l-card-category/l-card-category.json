@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-card-item": "/components/l-card-item/l-card-item"
+  },
+  "component": true
+}

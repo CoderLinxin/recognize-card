@@ -1,0 +1,8 @@
+<view class="tool-bar recognize-class"
+      hover-class="hover"
+      hover-stay-time="50"
+      style="background-color:{{bgColor}};">
+	<image class="icon" src="{{iconPath}}" />
+	<text class="title">{{title}}</text>
+</view>
+

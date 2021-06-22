@@ -1,0 +1,42 @@
+<view class="container">
+	<!-- 卡片信息展示 -->
+	<block wx:if="{{idInfo.id}}">
+		<view class="card-info my-class">
+			<l-header title="{{cards[index]}}信息" wx:if="{{showHeader}}" />
+			<view class="cardInfo">
+				<view>姓名：{{idInfo.name}}</view>
+				<view>出生日期：{{idInfo.birth}}</view>
+				<view>性别：{{idInfo.sex}}</view>
+				<view>地址：{{idInfo.address}}</view>
+				<view>民族：{{idInfo.nation}}</view>
+				<view>身份证号码：{{idInfo.id}}</view>
+				<image
+				 src="{{idInfo.fileID}}"
+				 class="card"
+				 mode="heightFix"
+				 wx:if="{{showImage}}"
+				/>
+			</view>
+		</view>
+	</block>
+	<block wx:else>
+		<block wx:if="{{bankInfo.cardNum}}">
+			<view class="card-info my-class">
+				<l-header title="{{cards[index]}}信息" wx:if="{{showHeader}}" />
+				<view class="cardInfo">
+					<view>卡号：{{bankInfo.cardNum}}</view>
+					<view>卡类型：{{bankInfo.cardType}}</view>
+					<view>卡名：{{bankInfo.cardName}}</view>
+					<view>银行名称：{{bankInfo.bankName}}</view>
+					<image
+					 src="{{bankInfo.fileID}}"
+					 class="card"
+					 mode="heightFix"
+					 wx:if="{{showImage}}"
+					/>
+				</view>
+			</view>
+		</block>
+	</block>
+</view>
+

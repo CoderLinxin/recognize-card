@@ -1,0 +1,23 @@
+.hover{
+  opacity: .7;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  padding: 0 10rpx;
+  margin-right: 15rpx;
+  height: 50rpx;
+  border-radius: 8rpx;
+}
+
+.icon{
+  width: 35rpx !important;
+  height: 35rpx !important;
+}
+
+.text{
+  margin-left: 8rpx;
+  font-size: 18rpx;
+  color: white;
+}

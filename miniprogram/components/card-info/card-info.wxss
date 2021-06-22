@@ -1,0 +1,14 @@
+.cardInfo {
+  padding-top: 30rpx;
+}
+
+.card-info {
+  font-size: 30rpx;
+  margin-top: 40rpx;
+  padding: 30rpx 0 30rpx 30rpx;
+}
+
+.card {
+  margin-top: 30rpx;
+  width: 90vw !important;
+}

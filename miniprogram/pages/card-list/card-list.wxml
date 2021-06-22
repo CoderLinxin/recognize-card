@@ -1,0 +1,29 @@
+<view class="container">
+	<block wx:for="{{cardList}}" wx:key="index">
+		<!-- 卡证标题 -->
+		<l-header title="{{cardType}}{{index+1}}信息">
+			<view slot="right" class="right-header">
+				<header-btn iconPath="/assets/imgs/copy.png" title="复制" bind:tap="copy" 
+				data-index="{{index}}"/>
+				<header-btn
+				 iconPath="/assets/imgs/delete.png"
+				 title="删除"
+				 bgColor="#555"
+				 bind:tap="delete"
+				 data-index="{{index}}"/>
+			</view>
+		</l-header>
+
+		<!-- 卡证信息 -->
+		<card-info
+		 idInfo="{{item}}"
+		 cards="{{cards}}"
+		 index="{{index}}"
+		 bankInfo="{{item}}"
+		 showImage="{{false}}"
+		 showHeader="{{false}}"
+		 my-class="card-info"
+		/>
+	</block>
+</view>
+

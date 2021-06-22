@@ -1,0 +1,27 @@
+.tool-bar{
+  border-radius: 8rpx;
+  
+  width: 80vw;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+
+  font-size: 0;
+}
+
+.tool-bar .icon{
+  height: 50rpx;
+  width: 50rpx;
+  vertical-align: middle;
+}
+
+.tool-bar .title{
+  color: white;
+  font-size: 36rpx;
+  margin-left: 30rpx;
+  vertical-align: middle;
+}
+
+.hover{
+  opacity: .3;
+}

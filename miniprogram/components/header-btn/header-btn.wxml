@@ -1,0 +1,6 @@
+<view class="btn" hover-class="hover" hover-stay-time="50"
+			style="background-color:{{bgColor}};">
+	<image class="icon" src="{{iconPath}}" />
+	<text class="text">{{title}}</text>
+</view>
+

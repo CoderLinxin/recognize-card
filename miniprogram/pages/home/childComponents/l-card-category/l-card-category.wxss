@@ -1,0 +1,8 @@
+.cardCategories {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 80rpx 0;
+  border-bottom: 8rpx solid #34AD61;
+}

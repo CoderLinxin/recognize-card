@@ -1,0 +1,9 @@
+.card-info {
+  padding: 0 0 17rpx 17rpx !important;
+  margin-top: 0 !important;
+}
+
+.right-header{
+  display: flex;
+}
+

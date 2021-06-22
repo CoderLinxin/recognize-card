@@ -1,0 +1,7 @@
+<view class="container">
+	<image class="icon" src="{{iconPath}}" mode="widthFix" />
+	<text class="descirbe">
+    {{title}}
+  </text>
+</view>
+
